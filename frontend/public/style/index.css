@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    white-space: nowrap;
+}
+
+body{
+    background-color: #202020;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+h1{
+    font-variant: small-caps;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+li{
+    font-size: large;
+    list-style-type: none;
+    transition: all 0.3s ease;
+}
+
+.text-plain-white{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+.text-plain-white:hover{
+    color: #808080;
+}
+label{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.submit{
+    width: 150px;
+    max-width: 150px;
+    margin-top: 15px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.submit:hover{
+    background-color: #808080;
+}
+.App{
+    margin-top: 40px;
+    /* position: absolute;
+    right: 960px;
+    top: 540px; */  
+    margin-left: 150px;
+}
+.margin-left-100px{
+    margin-top: 50px;
+    
+}
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.max-width{
+    max-width: fit-content;
+}
+.min-width{
+    min-width: 529px ;
+}
+.containerNote{
+    background-color: white;
+    margin-top: 14px;
+    padding: 14px;
+    border-radius: 5px;
+    height: 294px;
+    max-height: 294px;
+}
+.divider{
+    height: 3px;
+    background-color: white;
+    width: auto;
+    margin: 5px 0;
+}
+p{
+    font-size: small;
+}
+.createTitle{
+    height: 33px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    padding-left: 10px;
+    font-size: large;
+}
+.createBody{
+    height: 600px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 14px;
+    text-wrap: wrap;
+}
+.noteTitle{
+    margin-bottom: 14px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 7px;
+}
+.noteBody{
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+
+    width: 480px;
+    max-width: 480px;
+
+    height: 180px;
+    /* min-height: 180px; */
+    max-height: auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-wrap: wrap;
+    white-space: wrap;
+
+    border-radius: 5px; 
+    margin-bottom: 7px;
+}
+.note{
+    width: 500px;
+    max-width: 500px;
+
+    height: 250px;
+    max-height: 250px;
+}
+.modeContainer{
+    width: 1000px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.button{
+    width: 150px;
+    max-width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.button:hover{
+    background-color: #808080;
+}
+.margin-top-14px{
+    margin-top: 14px;
+}
+
+.createContainer{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
